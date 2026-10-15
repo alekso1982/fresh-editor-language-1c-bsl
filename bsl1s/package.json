@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sinelaw/fresh/main/crates/fresh-editor/plugins/schemas/package.schema.json",
+  "name": "bsl1s",
+  "version": "0.1.2",
+  "description": "1C (BSL)",
+  "type": "language",
+  "author": "Alekso1982",
+  "license": "MIT",
+  "fresh": {
+    "grammar": {
+      "file": "grammars/bsl1s.sublime-syntax",
+      "extensions": ["bsl"]
+    },
+    "language": {
+      "commentPrefix": "//",
+      "tabSize": 4,
+      "autoIndent": true
+    },
+    "lsp": {
+      "command": "language-server",
+      "args": ["--stdio"],
+      "autoStart": true
+    }
+  }
+}
