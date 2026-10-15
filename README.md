@@ -7,4 +7,4 @@
 Разработка основана на данных репозитария [xDrivenDevelopment/1c-syntax](https://github.com/xDrivenDevelopment/1c-syntax) 
 для редактора  [sinelaw/fresh](https://github.com/sinelaw/fresh).
 
-![Uploading skreen_flresh.png…]()
+
